@@ -55,7 +55,7 @@ namespace SignalR
         {
             string roomId = model.roomId;
             Clients.Group(roomId).userLoggedInSuccess("userLoggedInSuccess", model);
-            //Clients.All.userLoggedInSuccess("userLoggedInSuccess", model);
+            Clients.All.userLoggedInSuccess("userLoggedInSuccess", model);
         }
 
 
@@ -68,7 +68,7 @@ namespace SignalR
             {
                 Clients.Group(roomId).userLoggedOffSuccess("UserLoggedOffSuccess", model);
             }
-            //Clients.All.userLoggedOffSuccess("UserLoggedOffSuccess", model);
+            Clients.All.userLoggedOffSuccess("UserLoggedOffSuccess", model);
         }
 
 
