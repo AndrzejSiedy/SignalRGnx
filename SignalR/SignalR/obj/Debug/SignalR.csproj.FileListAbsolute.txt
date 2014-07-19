@@ -20,3 +20,9 @@ E:\_GitHub\SignalRGnx\SignalR\SignalR\bin\Newtonsoft.Json.xml
 E:\_GitHub\SignalRGnx\SignalR\SignalR\obj\Debug\SignalR.csprojResolveAssemblyReference.cache
 E:\_GitHub\SignalRGnx\SignalR\SignalR\obj\Debug\SignalR.dll
 E:\_GitHub\SignalRGnx\SignalR\SignalR\obj\Debug\SignalR.pdb
+E:\_GitHub\SignalRGnx\SignalR\SignalR\bin\System.Net.Http.Formatting.dll
+E:\_GitHub\SignalRGnx\SignalR\SignalR\bin\System.Web.Http.dll
+E:\_GitHub\SignalRGnx\SignalR\SignalR\bin\System.Web.Http.WebHost.dll
+E:\_GitHub\SignalRGnx\SignalR\SignalR\bin\System.Net.Http.Formatting.xml
+E:\_GitHub\SignalRGnx\SignalR\SignalR\bin\System.Web.Http.xml
+E:\_GitHub\SignalRGnx\SignalR\SignalR\bin\System.Web.Http.WebHost.xml

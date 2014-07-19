@@ -40,6 +40,7 @@ namespace SignalR
             // method on client will be called - to all in group
             string eventName = "joindedGroup";
             Clients.Group(roomName).joinedRoom(eventName, clientName);
+            
             Clients.All.joinedRoom(eventName, clientName);
             //Clients.Client(Context.ConnectionId).joinedRoom(eventName, clientName);
         }
