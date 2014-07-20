@@ -32,6 +32,15 @@ namespace SignalR
         }
 
 
+        public void GadgetDropped(MessageObject data)
+        {
+            //Clients.All.joinedRoom("joindedGroup", "xxxxxxxxxxxxxx");
+            //Clients.Client(Context.ConnectionId).gadgetDropped(data);
+            //Clients.Group(data.roomId).joinedRoom("gadgetDropped", data);
+            Clients.Group(data.roomId).gadgetDropped("gadgetDropped", data);
+            //Clients.All.gadgetDropped("gadgetDropped", data);
+        }
+
         public async Task JoinRoom(string roomName, string clientName)
         {
             //return Groups.Add(Context.ConnectionId, roomName);
@@ -41,7 +50,7 @@ namespace SignalR
             string eventName = "joindedGroup";
             Clients.Group(roomName).joinedRoom(eventName, clientName);
             
-            Clients.All.joinedRoom(eventName, clientName);
+            //Clients.All.joinedRoom(eventName, clientName);
             //Clients.Client(Context.ConnectionId).joinedRoom(eventName, clientName);
         }
 
